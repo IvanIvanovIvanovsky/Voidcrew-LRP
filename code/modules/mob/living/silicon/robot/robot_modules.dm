@@ -329,6 +329,24 @@
 	return ..()
 //WS End
 
+/obj/item/robot_module/damagecontrol
+	name = "Damage Control"
+	basic_modules = list(
+		/obj/item/assembly/flash/cyborg,
+		/obj/item/gun/energy/printer,
+		/obj/item/crowbar/cyborg,
+		/obj/item/soap/nanotrasen,
+		/obj/item/construction/rcd/borg,
+		/obj/item/reagent_containers/borghypo,
+		/obj/item/weldingtool/largetank/cyborg,
+		/obj/item/pickaxe/drill/cyborg,
+		/obj/item/extinguisher)
+
+	cyborg_base_icon = "synd_sec"
+	moduleselect_icon = "malf"
+	can_be_pushed = FALSE
+	hat_offset = 3
+
 /obj/item/robot_module/medical
 	name = "Medical"
 	basic_modules = list(
